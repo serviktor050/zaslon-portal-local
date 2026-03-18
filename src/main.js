@@ -1,3 +1,3 @@
-import './style.css'
+import './style.scss'
 
-console.log('Проект готов для редактирования HTML и CSS файлов!');
+console.log('Главная страница');

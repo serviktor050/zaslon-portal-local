@@ -10,6 +10,7 @@
     "serve": "vite preview --port 3000"
   },
   "devDependencies": {
+    "sass-embedded": "^1.98.0",
     "vite": "^7.3.1"
   }
 }
