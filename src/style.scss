@@ -15,10 +15,11 @@ body {
 }
 
 .container {
-  max-width: 1272px;
   display: flex;
   flex-direction: column;
   background-color: #D9D9D9;
+  max-width: 1272px;
+  margin: 0 auto;
 
   .main {
     position: relative;
@@ -64,6 +65,135 @@ body {
       position: absolute;
       z-index: 2;
       top: -2px;
+    }
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+
+    &__title {
+      font-weight: 700;
+      font-size: 20px;
+      leading-trim: NONE;
+      line-height: 130%;
+      letter-spacing: 0;
+      color: #94969D;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: row;
+      gap: 12px;
+
+      .item {
+        display: flex;
+        border-radius: 12px;
+        padding: 8px;
+        min-height: 409px;
+
+        &__title {
+          font-weight: 700;
+          font-size: 18px;
+          leading-trim: NONE;
+          line-height: 130%;
+          letter-spacing: 0;
+          color: #181818;
+        }
+
+        &__description {
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+          font-weight: 400;
+          font-size: 14px;
+          leading-trim: NONE;
+          line-height: 130%;
+          letter-spacing: 0;
+          color: #485258;
+        }
+      }
+
+      .item-wide {
+        flex-direction: row;
+        width: 100%;
+        max-width: 520px;
+        background-color: #1066BB26;
+
+        .info {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          padding: 16px;
+          flex: 1;
+          min-width: 0;
+          overflow-wrap: break-word;
+          word-wrap: break-word;
+          hyphens: auto;
+
+          ul {
+            margin: 0;
+            padding-left: 20px;
+
+            li {
+              margin-bottom: 6px;
+            }
+          }
+        }
+
+        &__image {
+          min-width: 0;
+          max-width: 50%;
+          height: auto;
+          object-fit: contain;
+          border-radius: 12px;
+        }
+      }
+
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        max-width: 692px;
+
+        .item-narrow {
+          flex-direction: column;
+          justify-content: space-between;
+          gap: 8px;
+
+          .info {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            padding: 12px;
+          }
+
+          &__image {
+            min-width: 0;
+            max-width: 100%;
+            height: auto;
+            object-fit: contain;
+            border-radius: 12px;
+          }
+
+          &:first-child {
+            background-color: #4DA4A226;
+          }
+
+          &:nth-child(2) {
+            background-color: #1066BB26;
+          }
+
+          &:nth-child(3) {
+            background-color: #A289CF26;
+          }
+        }
+
+      }
     }
   }
 }
