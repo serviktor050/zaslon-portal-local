@@ -100,25 +100,89 @@
       </div>
     </section>
 
-    <section class="reviews">
+    <section class="reviews js-gallery">
       <div class="reviews__header">
         <div class="title">Отзывы о нашей работе</div>
-        <div class="buttons">
-          <div class="prev-btn">←</div>
-          <div class="next-btn">→</div>
+        <div class="navigation">
+          <button class="navigation__prev-btn js-gallery__prev-btn" aria-label="Предыдущий слайд">
+            <-
+          </button>
+          <button class="navigation__next-btn js-gallery__next-btn" aria-label="Следующий слайд">
+            ->
+          </button>
         </div>
       </div>
-      <div class="reviews__body-wrapper">
-        <div class="reviews__body swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><div class="review">1</div></div>
-            <div class="swiper-slide"><div class="review">2</div></div>
-            <div class="swiper-slide"><div class="review">3</div></div>
-            <div class="swiper-slide"><div class="review">4</div></div>
-            <div class="swiper-slide"><div class="review">5</div></div>
-            <div class="swiper-slide"><div class="review">6</div></div>
-            <div class="swiper-slide"><div class="review">7</div></div>
+      <div class="reviews__slider js-gallery-swiper swiper">
+        <div class="swiper-wrapper">
+          <div class="slide swiper-slide">
+            <img
+              class="image"
+              src="src/assets/png/review_img_1.png"
+              alt="Отзыв клиента"
+            />
+            <div class="content">
+              <div class="content__person">
+                <div class="name">
+                  Василий Лайкин
+                </div>
+                <div class="pet-owner">
+                  Хозяин пса Алекса
+                </div>
+              </div>
+              <div class="content__text">
+                Спасибо вам большое за передержку моего пса, очень доволен. фотоотчет каждый день!
+              </div>
+            </div>
           </div>
+
+          <div class="slide swiper-slide">
+            <img
+              class="image"
+              src="src/assets/png/review_img_2.png"
+              alt="Отзыв клиента"
+            />
+            <div class="content">
+              <div class="content__person">
+                <div class="name">
+                  Екатерина Поленова
+                </div>
+                <div class="pet-owner">
+                  Хозяйка лабрадора
+                </div>
+              </div>
+              <div class="content__text">
+                Оставляла у Вас собаку на время командировки. все прошло просто замечательно. Спасибо! Оставляла у Вас
+                собаку на время командировки. все прошло просто замечательно. Спасибо! Оставляла у Вас собаку на время
+                командировки. все прошло просто замечательно. Спасибо! Оставляла у Вас собаку на время командировки.
+                все прошло просто замечательно. Спасибо! Оставляла у Вас собаку на время командировки. все прошло
+                просто замечательно. Спасибо!
+              </div>
+              <a class="content__link">Читать дальше</a>
+            </div>
+          </div>
+
+          <div class="slide swiper-slide">
+            <img
+              class="image"
+              src="src/assets/png/review_img_1.png"
+              alt="Отзыв клиента"
+            />
+            <div class="content">
+              <div class="content__person">
+                <div class="name">
+                  Иван Швидко
+                </div>
+                <div class="pet-owner">
+                  Хозяин лайки Лисички
+                </div>
+              </div>
+              <div class="content__text">
+                Воспользовались первый раз вашими услугами, к тому же собака вынуждена принимать постоянно лекарства,
+                забрал собаку в добром здравии, спасибо!
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
