@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Зоогостиница</title>
+</head>
+<body>
+<main class="container">
+    <section class="main">
+        <div class="wrapper">
+            <div class="info">
+                <div class="info__title">
+                    Зоогостиница
+                </div>
+                <div class="info__subtitle">
+                    Сервис позволяет планировать и бронировать проживание ваших питомцев в зоогостинице. Выберите даты, чтобы
+                    зарезервировать место для любимца и обеспечить ему качественный уход в ваше отсутствие. Также вы можете
+                    забронировать даты в календаре (заселим день в день при наличии действующей ветеринарной справки) для того,
+                    чтобы мы подготовили все необходимое для питомца.
+                </div>
+            </div>
+        </div>
+        <img src="./assets/png/banner.png" alt="banner" class="banner" />
+    </section>
+
+    <section class="services">
+        <div class="services__title">Услуги и стоимость</div>
+        <div class="services__list">
+            <div class="item item-wide">
+                <div class="info">
+                    <div class="item__title">Передержка</div>
+                    <div class="item__description">
+                        <ul>
+                            <li>Ежедневный осмотр</li>
+                            <li>Выгул 2 раза в день</li>
+                            <li>Гигиена: глаза, уши (по необходимости)</li>
+                            <li>Кормление вашими кормами 2 раза в день (корм промышленного производства)</li>
+                            <li>Дополнительный дневной выгул на поводке/в вольере</li>
+                            <li>Фото/видеоотчеты раз в день</li>
+                            <li>Индивидуальный график кормления (как дома)</li>
+                            <li>Заботливый присмотр за вашей собакой/li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="./assets/png/service_img_1.png" alt="services" class="item-wide__image" />
+            </div>
+            <div class="wrapper">
+                <div class="item item-narrow">
+                    <div class="info">
+                        <div class="item__title">Ветеринарный контроль, вызов врача от 2 500 ₽</div>
+                        <div class="item__description">
+                            <span>Дадим витамины или назначенные вашим врачом лекарства.</span>
+                            <span>Вызовем врача, если питомец плохо себя почувствует.</span>
+                        </div>
+                    </div>
+                    <img src="./assets/png/service_img_2.png" alt="services" class="item-narrow__image" />
+                </div>
+                <div class="item item-narrow">
+                    <div class="info">
+                        <div class="item__title">Кинолог</div>
+                        <div class="item__description">
+                <span>
+                  Услуга индивидуальных занятий с кинологом осуществляется по запросу с
+                  учетом особенностей поведения питомца и того, каких результатов вы хотите достичь.
+                </span>
+                        </div>
+                    </div>
+                    <img src="./assets/png/service_img_3.png" alt="services" class="item-narrow__image" />
+                </div>
+                <div class="item item-narrow">
+                    <div class="info">
+                        <div class="item__title">Зоотакси</div>
+                        <div class="item__description">
+                            <span>Сервис находится в разработке</span>
+                        </div>
+                    </div>
+                    <img src="./assets/png/service_img_4.png" alt="services" class="item-narrow__image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calendar">
+        <div class="calendar__header">
+            <div class="title">Календарь бронирования</div>
+            <div class="reserve-btn">
+                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11.5647 0.790177C10.8817 0.107143 9.91743 0 8.77234 0H3.55581C2.43081 0 1.46652 0.107143 0.78348 0.790177C0.100446 1.47321 0 2.43081 0 3.55581V8.77234C0 9.91743 0.100446 10.875 0.78348 11.5581C1.46652 12.2411 2.43081 12.3482 3.56919 12.3482H8.77234C9.91743 12.3482 10.8817 12.2411 11.5647 11.5581C12.2478 10.875 12.3482 9.91743 12.3482 8.77234V3.56919C12.3482 2.42411 12.2478 1.47321 11.5647 0.790177ZM11.2701 3.38839V8.95983C11.2701 9.64954 11.183 10.3661 10.7746 10.7679C10.3727 11.1763 9.64954 11.2701 8.95983 11.2701H3.38839C2.69866 11.2701 1.97545 11.1763 1.56697 10.7679C1.16518 10.3661 1.07813 9.64954 1.07813 8.95983V3.40848C1.07813 2.69866 1.16518 1.98214 1.56697 1.57366C1.97545 1.17187 2.70536 1.07813 3.40848 1.07813H8.95983C9.64954 1.07813 10.3727 1.17187 10.7746 1.58035C11.183 1.98214 11.2701 2.69866 11.2701 3.38839Z" fill="white"/>
+                    <path d="M3.07324 6.17244C3.07324 6.50055 3.30761 6.72152 3.64913 6.72152H5.61788V8.69701C5.61788 9.03181 5.83889 9.26621 6.16701 9.26621C6.50181 9.26621 6.73621 9.0385 6.73621 8.69701V6.72152H8.71164C9.04644 6.72152 9.28084 6.50055 9.28084 6.17244C9.28084 5.83764 9.04644 5.60323 8.71164 5.60323H6.73621V3.63448C6.73621 3.29296 6.50181 3.05859 6.16701 3.05859C5.83889 3.05859 5.61788 3.29296 5.61788 3.63448V5.60323H3.64913C3.30092 5.60323 3.07324 5.83764 3.07324 6.17244Z" fill="white"/>
+                </svg>
+                Забронировать
+            </div>
+        </div>
+        <div class="calendar__body">
+            Блок для календаря
+        </div>
+    </section>
+
+    <section class="reviews reviews-gallery">
+        <div class="reviews__header">
+            <div class="title">Отзывы о нашей работе</div>
+            <div class="navigation">
+                <button class="navigation__prev-btn reviews-gallery__prev-btn" aria-label="Предыдущий слайд">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.75 12.75L0.75 6.75L6.75 0.75" stroke="#004F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <button class="navigation__next-btn reviews-gallery__next-btn" aria-label="Следующий слайд">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.75 12.75L6.75 6.75L0.749999 0.75" stroke="#004F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="reviews__slider reviews-gallery-swiper swiper">
+            <div class="swiper-wrapper">
+                <div class="slide swiper-slide">
+                    <img
+                            class="image"
+                            src="./assets/png/review_img_1.png"
+                            alt="Отзыв клиента"
+                    />
+                    <div class="content">
+                        <div class="content__person">
+                            <div class="name">
+                                Василий Лайкин
+                            </div>
+                            <div class="pet-owner">
+                                Хозяин пса Алекса
+                            </div>
+                        </div>
+                        <div class="content__text">
+                            Спасибо вам большое за передержку моего пса, очень доволен. фотоотчет каждый день!
+                        </div>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img
+                            class="image"
+                            src="./assets/png/review_img_2.png"
+                            alt="Отзыв клиента"
+                    />
+                    <div class="content">
+                        <div class="content__person">
+                            <div class="name">
+                                Екатерина Поленова
+                            </div>
+                            <div class="pet-owner">
+                                Хозяйка лабрадора
+                            </div>
+                        </div>
+                        <div class="content__text">
+                            Оставляла у Вас собаку на время командировки. все прошло просто замечательно. Спасибо! Оставляла у Вас
+                            собаку на время командировки. все прошло просто замечательно. Спасибо! Оставляла у Вас собаку на время
+                            командировки. все прошло просто замечательно. Спасибо! Оставляла у Вас собаку на время командировки.
+                            все прошло просто замечательно. Спасибо! Оставляла у Вас собаку на время командировки. все прошло
+                            просто замечательно. Спасибо!
+                        </div>
+                        <a class="content__link">Читать дальше</a>
+                    </div>
+                </div>
+                <div class="slide swiper-slide">
+                    <img
+                            class="image"
+                            src="./assets/png/review_img_1.png"
+                            alt="Отзыв клиента"
+                    />
+                    <div class="content">
+                        <div class="content__person">
+                            <div class="name">
+                                Иван Швидко
+                            </div>
+                            <div class="pet-owner">
+                                Хозяин лайки Лисички
+                            </div>
+                        </div>
+                        <div class="content__text">
+                            Воспользовались первый раз вашими услугами, к тому же собака вынуждена принимать постоянно лекарства,
+                            забрал собаку в добром здравии, спасибо!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<script type="module" src="./zoohotel.js"></script>
+</body>
+</html>

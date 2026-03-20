@@ -1,3 +1,3 @@
-import './style.css'
+import './pages/zoohotel/zoohotel.js'
 
-console.log('Проект готов для редактирования HTML и CSS файлов!');
+import './style.css'
