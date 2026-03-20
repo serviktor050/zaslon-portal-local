@@ -8,7 +8,6 @@
 </head>
 <body>
   <main class="container">
-
     <section class="main">
       <div class="wrapper">
         <div class="info">
@@ -74,8 +73,7 @@
             <div class="info">
               <div class="item__title">Зоотакси</div>
               <div class="item__description">
-                <span>Мы готовы доставить собаку, если вы не имеете возможность её привезти или забрать.</span>
-                <span>Стоимость зависит от удалённости населённого пункта.</span>
+                <span>Сервис находится в разработке</span>
               </div>
             </div>
             <img src="src/assets/png/service_img_4.png" alt="services" class="item-narrow__image" />
@@ -100,19 +98,23 @@
       </div>
     </section>
 
-    <section class="reviews js-gallery">
+    <section class="reviews reviews-gallery">
       <div class="reviews__header">
         <div class="title">Отзывы о нашей работе</div>
         <div class="navigation">
-          <button class="navigation__prev-btn js-gallery__prev-btn" aria-label="Предыдущий слайд">
-            <-
+          <button class="navigation__prev-btn reviews-gallery__prev-btn" aria-label="Предыдущий слайд">
+            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6.75 12.75L0.75 6.75L6.75 0.75" stroke="#004F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
           </button>
-          <button class="navigation__next-btn js-gallery__next-btn" aria-label="Следующий слайд">
-            ->
+          <button class="navigation__next-btn reviews-gallery__next-btn" aria-label="Следующий слайд">
+            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.75 12.75L6.75 6.75L0.749999 0.75" stroke="#004F9F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
           </button>
         </div>
       </div>
-      <div class="reviews__slider js-gallery-swiper swiper">
+      <div class="reviews__slider reviews-gallery-swiper swiper">
         <div class="swiper-wrapper">
           <div class="slide swiper-slide">
             <img
@@ -134,7 +136,6 @@
               </div>
             </div>
           </div>
-
           <div class="slide swiper-slide">
             <img
               class="image"
@@ -160,7 +161,6 @@
               <a class="content__link">Читать дальше</a>
             </div>
           </div>
-
           <div class="slide swiper-slide">
             <img
               class="image"
@@ -182,11 +182,9 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
-
   </main>
 <script type="module" src="/src/main.js"></script>
 </body>
