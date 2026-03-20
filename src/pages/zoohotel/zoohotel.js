@@ -62,8 +62,8 @@ if (galleryAll.length) {
             }
 
             if (window.screen.width >= 1279) {
-                config.creativeEffect.prev.translate = ['-45%', '10%', 0]
-                config.creativeEffect.next.translate = ['45%', '10%', 0]
+                config.creativeEffect.prev.translate = ['-93%', '10%', 0]
+                config.creativeEffect.next.translate = ['93%', '10%', 0]
             }
 
             const slider = new Swiper(sliderEl, config)
