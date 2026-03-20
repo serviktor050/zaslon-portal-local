@@ -8,6 +8,7 @@ export default defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 zoo: resolve(__dirname, 'zoo.html'),
+                support: resolve(__dirname, 'support.html'),
             },
         },
     },
